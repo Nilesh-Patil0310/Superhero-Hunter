@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/23262b3e-e3a1-4eac-b7cc-01477bcc653b/dfiqhq3-5dcb0b0c-69d7-4598-9c15-68a6591852c7.jpg/v1/fill/w_1280,h_960,q_75,strp/updated_mcu_wallpaper_by_themarvelkid1_dfiqhq3-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvMjMyNjJiM2UtZTNhMS00ZWFjLWI3Y2MtMDE0NzdiY2M2NTNiXC9kZmlxaHEzLTVkY2IwYjBjLTY5ZDctNDU5OC05YzE1LTY4YTY1OTE4NTJjNy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Q92fQRQhIfVIEWvAw_OyenmAeEio5b-0U7HGAeWY3U8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkred;
+    text-align: center;
+    font-size: 1.3rem;
+    min-height: 100vh;
+}
+
+h1 {
+    text-shadow: 2px 1px 4px;
+    color: white;
+}
+
+h1:hover {
+    text-shadow: 2px 1px 8px black;
+}
+
+/****** Nav-bar ******/
+
+#nav-bar{
+    width: 100vw;
+    height: 50px;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+#nav-bar a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 1px black;
+
+}
+
+#Favourites a,
+#home a{
+    color: white;
+}
+
+/****** input box and serchbutton ******/
+
+#searchInput,
+#searchButton,
+#moreDetailsButton {
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: rgb(13, 9, 27);
+    box-shadow: 0 0 2px 3px rgb(174, 213, 219);
+}
+
+
+#moreDetailsButton:hover {
+    margin-top: 5px;
+    background-color: rgb(21, 1, 1);
+    border-color: rgb(140, 91, 91);
+    box-shadow: 0 0 2px 3px burlywood;
+}
+
+.card-container {
+    padding: 8px;
+    width: 40vw;
+    margin: 2% 30%;
+    border: 2px solid wheat;
+    text-align: center;
+    background-color: rgb(21, 3, 8);
+    text-wrap: initial;
+
+}
+
+/* Style superhero image */
+.container-character-image img {
+    width: 40%;
+    position: relative;
+    width: block;
+    border-radius: 50%;
+    border: 2px solid wheat;
+
+}
+
+/* Style superhero name  */
+.character-name {
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    color: rgb(246, 196, 196);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.character-name:hover {
+    text-shadow: 2px 3px 5px rgb(219, 243, 166);
+}
+
+/****** superhero description ******/
+.character-description {
+    text-align: center;
+    width: 40vw;
+    color: #a0a0a6;
+    line-height: 2em;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+/****** suggetion charecters ******/
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.autocomplete-items {
+    width: calc(32% - 10px);
+    margin-bottom: 20px;
+    
+    border: 2px solid wheat;
+    color: rgb(206, 96, 127);
+    text-shadow: 2px 1px white;
+
+}
+
+.autocomplete-items img {
+    width: 40%;
+    height: auto;
+    border: 2px solid wheat;
+    border-radius: 50%;
+    margin:5px;
+}
+
+
+.autocomplete-items:hover{
+    background-color: rgb(204, 243, 187);
+    color: rgb(3, 66, 70);
+}
+
+button{
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 8px;
+    background-color: black;
+    color: rgb(190, 94, 94);
+    cursor: pointer;
+    margin:5px;
+}
+button:hover {
+    margin-top: 5px;
+    background-color: rgb(21, 1, 1);
+    border-color: rgb(140, 91, 91);
+    box-shadow: 0 0 2px 3px burlywood;
+}
